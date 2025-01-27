@@ -1,0 +1,3 @@
+﻿  Logger.cpp
+C:\travail\C63DEMO\ExerciceLogger\Logger.cpp(16,3): warning C4150: suppression de pointeur vers type incomplet 'std::basic_ofstream<char,std::char_traits<char>>' ; aucun destructeur appelé
+  ExerciceLogger.vcxproj -> C:\travail\C63Demo\x64\Debug\ExerciceLogger.exe
