@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\travail\\C63DEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|solutionrelative:ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
-              "RelativeDocumentMoniker": "ExerciceLoggerProf\\main.cpp",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
-              "RelativeToolTip": "ExerciceLoggerProf\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-03T17:45:01.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Logger.h",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h",
-              "RelativeDocumentMoniker": "ExerciceLoggerProf\\Logger.h",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h",
-              "RelativeToolTip": "ExerciceLoggerProf\\Logger.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-03T17:45:01.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Logger.cpp",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
-              "RelativeDocumentMoniker": "ExerciceLoggerProf\\Logger.cpp",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
-              "RelativeToolTip": "ExerciceLoggerProf\\Logger.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAHsAAAABAAAA",
+              "Title": "ExerciceDessin.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
+              "RelativeDocumentMoniker": "ExerciceDessin\\ExerciceDessin.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
+              "RelativeToolTip": "ExerciceDessin\\ExerciceDessin.cpp",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACYAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-03T17:45:00.888Z",
+              "WhenOpened": "2025-02-03T19:07:31.369Z",
               "EditorCaption": ""
             }
           ]
