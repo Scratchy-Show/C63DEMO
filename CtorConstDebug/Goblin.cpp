@@ -4,32 +4,32 @@
 using namespace std;
 
 Goblin::Goblin()
-//Préconstructeur (:)
-//1) Pour appeler un autre constructeur avec des paramètres
-// Les constructeur peuvent s'appeler entre eux mais uniquement dans le préconstructeur
+// PrÃ©constructeur (liste d'initialisation avec ":")
+//1) Pour appeler un autre constructeur avec des paramÃ¨tres
+// Les constructeur peuvent s'appeler entre eux mais uniquement dans le prÃ©constructeur
 	:Goblin::Goblin("NoName")
 {
-	cout << "Goblin::Goblin() est appelé. " << "("<< _Name << ")" << endl;
+	cout << "Goblin::Goblin() est appelï¿½. " << "("<< _Name << ")" << endl;
 }
 
 Goblin::Goblin(const string& InName)
-//Préconstructeur
+//PrÃ©constructeur
 //2) Pour initialiser une const
 //3) Pour initialiser des valeurs (bonne pratique mais pas obligatoire)
 	:_Name(InName),
 	_Life(20)
 {
-	cout << "Goblin::Goblin(const string& InName) est appelé. " << "(" << _Name << ")" << endl;
+	cout << "Goblin::Goblin(const string& InName) est appelï¿½. " << "(" << _Name << ")" << endl;
 }
 
 Goblin::~Goblin()
 {
-	cout << "Goblin::~Goblin() est appelé. " << "(" << _Name << ")" << endl;
+	cout << "Goblin::~Goblin() est appelï¿½. " << "(" << _Name << ")" << endl;
 }
 
 const string& Goblin::GetName() const
 {
-	//Interdit à cause que Goblin::GetName() const
+	//Interdit Ã  cause que Goblin::GetName() const
 	//_Name = "GlobinCoquin";
 	return _Name; // return this->_Name;
 }
@@ -37,7 +37,7 @@ const string& Goblin::GetName() const
 int Goblin::GetLife() const
 {
 
-	//Interdit à cause que GetLife() const
+	//Interdit Ã  cause que GetLife() const
 	//_Life = 10;
 	return _Life;
 }

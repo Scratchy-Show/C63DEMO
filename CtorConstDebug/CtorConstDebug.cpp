@@ -2,7 +2,7 @@
 #include <windows.h> //Pour SetConsoleOutputCP
 #include "Goblin.h"
 
-//DÈclaration de fonctions globales pour tantÙt
+//DÔøΩclaration de fonctions globales pour tantÔøΩt
 void PresentationGoblinTresMalFait(Goblin InGoblin);
 void PresentationGoblinMalFait(Goblin InGoblin);
 void PresentationGoblinBienFait(Goblin InGoblin);
@@ -13,43 +13,45 @@ int main()
     SetConsoleOutputCP(1252);
 
     // const
-    // const mÈcanisme de sÈcuritÈ
+    //Utilisation de 'const' pour d√©finir des valeurs immuables
+    // const m√©canisme de s√©curit√©
     float const PI = 3.14;
     const float TWO_PI(2 * PI);
 
-    // rÈfÈrence
-    // Par defaut pour les objets
+    // R√©f√©rence
+    // Une r√©f√©rence agit comme un alias d'une variable existante
+    // Par d√©faut, les objets sont pass√©s par r√©f√©rence
     // Pas pour les types primitif
     float a = 4.0f;
     float& refA = a; // Copie l'adresse
-    refA += 10.0f;
-    cout << refA << endl;
+    refA += 10.0f;   // Modifier refA revient √† modifier 'a'
+    cout << refA << endl; // Affiche 14.0
 
-    cout << endl << "DurÈe de vie d'un objet automatique" << endl;
+    cout << endl << "DurÔøΩe de vie d'un objet automatique" << endl;
     {
         // Ce qui n'est pas un pointeur est un objet automatique
         // Il se new et delete tout seul
         Goblin goblinAutomatique; //Construit ici
-    } //DÈtruit ici
+    } //D√©truit ici
 
-    cout << endl << "DurÈe de vie d'un objet automatique: dans un if" << endl;
+    cout << endl << "DurÔøΩe de vie d'un objet automatique: dans un if" << endl;
     if (true)
     {
         //Construit ici
         Goblin goblinAutomatiqueDansUnIf("IffyGoblin");
-    } //DÈtruit ici
+    } //D√©truit ici
 
 
-    cout << endl << "DurÈe de vie d'un objet crÈÈ avec new" << endl;
+    cout << endl << "DurÔøΩe de vie d'un objet crÔøΩÔøΩ avec new" << endl;
     //Construit ici
     Goblin* ptrGoblin = new Goblin("PeterLeGoblin");
     const string& nomDeptrGoblin = ptrGoblin->GetName();
     cout << "Je suis " << nomDeptrGoblin << endl;
-    //DÈtruit ici
+    //D√©truit ici
     delete ptrGoblin;
     ptrGoblin = nullptr;
 
-    cout << endl << "Passage par paramËtre" << endl;
+    cout << endl << "Passage par paramÔøΩtre" << endl;
 
     Goblin goblinPresentateur("GoblinPresentateur");
     PresentationGoblinTresMalFait(goblinPresentateur);
@@ -61,18 +63,18 @@ int main()
 }
 
 
-//ImplÈmentation
+//Impl√©mentation
 void PresentationGoblinTresMalFait(Goblin InGoblin)
 {
-    cout << "PrÈsentation trËs mal faite du goblin " << InGoblin.GetName() << endl;
+    cout << "PrÔøΩsentation trÔøΩs mal faite du goblin " << InGoblin.GetName() << endl;
 }
 
 void PresentationGoblinMalFait(const Goblin InGoblin)
 {
-    cout << "PrÈsentation mal faite du goblin " << InGoblin.GetName() << endl;
+    cout << "PrÔøΩsentation mal faite du goblin " << InGoblin.GetName() << endl;
 }
 
 void PresentationGoblinBienFait(const Goblin InGoblin)
 {
-    cout << "PrÈsentation bien fait du goblin " << InGoblin.GetName() << endl;
+    cout << "PrÔøΩsentation bien fait du goblin " << InGoblin.GetName() << endl;
 }
