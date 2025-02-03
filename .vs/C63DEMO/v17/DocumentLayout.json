@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\travail\\C63DEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|C:\\travail\\C63DEMO\\ExerciceLogger\\ExerciceLogger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|solutionrelative:ExerciceLogger\\ExerciceLogger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|solutionrelative:ExerciceLogger\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}|ExerciceLogger\\ExerciceLogger.vcxproj|solutionrelative:ExerciceLogger\\Logger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Logger.h",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.h",
-              "RelativeDocumentMoniker": "ExerciceLogger\\Logger.h",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.h",
-              "RelativeToolTip": "ExerciceLogger\\Logger.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-31T17:59:18.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExerciceLogger.cpp",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLogger\\ExerciceLogger.cpp",
-              "RelativeDocumentMoniker": "ExerciceLogger\\ExerciceLogger.cpp",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLogger\\ExerciceLogger.cpp",
-              "RelativeToolTip": "ExerciceLogger\\ExerciceLogger.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
+              "RelativeDocumentMoniker": "ExerciceLoggerProf\\main.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
+              "RelativeToolTip": "ExerciceLoggerProf\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-27T18:26:11.47Z",
+              "WhenOpened": "2025-02-03T17:45:01.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Logger.h",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h",
+              "RelativeDocumentMoniker": "ExerciceLoggerProf\\Logger.h",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.h",
+              "RelativeToolTip": "ExerciceLoggerProf\\Logger.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-03T17:45:01.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Logger.cpp",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.cpp",
-              "RelativeDocumentMoniker": "ExerciceLogger\\Logger.cpp",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLogger\\Logger.cpp",
-              "RelativeToolTip": "ExerciceLogger\\Logger.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
+              "RelativeDocumentMoniker": "ExerciceLoggerProf\\Logger.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
+              "RelativeToolTip": "ExerciceLoggerProf\\Logger.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAHsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-31T17:59:15.835Z",
+              "WhenOpened": "2025-02-03T17:45:00.888Z",
               "EditorCaption": ""
             }
           ]
