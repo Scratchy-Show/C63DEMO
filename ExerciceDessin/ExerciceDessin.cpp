@@ -3,15 +3,14 @@
 
 int main()
 {
-    // Initialization
-    //--------------------------------------------------------------------------------------
-    const int screenWidth = 1000;
-    const int screenHeight = 1000;
+    // Initialisation
+    const int screenWidth = 800;
+    const int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "Exercice dessin");
 
+    // Positions
     Vector2 center = { (GetScreenWidth() - 300) / 2.0f, GetScreenHeight() / 2.0f };
-
     float outerRadius = 180.0f;
     float startAngle = 34.0f;
     float endAngle = 315;
@@ -22,20 +21,26 @@ int main()
     Vector2 ballPosition2 = { (float)screenWidth / 2 + 150, (float)screenHeight / 2 };
     Vector2 ballPosition3 = { (float)screenWidth / 2 + 300, (float)screenHeight / 2 };
 
+    // Alterne entre les dessins
+    bool isPacmanDisplayed = true;
+
     // Set our game to run at 60 frames-per-second
     SetTargetFPS(60);
-    //--------------------------------------------------------------------------------------
 
-    // Main game loop
-    // Detect window close button or ESC key
-    while (!WindowShouldClose())
+    // Boucle principale du jeu
+    while (!WindowShouldClose()) // Détection de la fermeture de la fenêtre
     {
-        // Draw
-        //----------------------------------------------------------------------------------
-       /* BeginDrawing();
+        if (IsKeyPressed(KEY_SPACE))
+        {
+            // Inverse l'affichage
+            isPacmanDisplayed = !isPacmanDisplayed;
+        }
 
-            ClearBackground(BLACK);
+        BeginDrawing();
 
+        if (isPacmanDisplayed)
+        {
+			ClearBackground(BLACK);
             DrawCircleSector(center, outerRadius, startAngle, endAngle, (int)segments, YELLOW);
 
             DrawCircleV(ballPosition1, 30, GRAY);
@@ -43,25 +48,26 @@ int main()
             DrawCircleV(ballPosition3, 50, GRAY);
 
             DrawText("Waka waka !!!!!!", 150, 700, 50, RED);
-
-        EndDrawing();
-        //----------------------------------------------------------------------------------
-        */
-        
-        // Draw
-        //----------------------------------------------------------------------------------
-        BeginDrawing();
-
+        }
+        else
+        {
             ClearBackground(DARKPURPLE);
 
-            for (int i = 0; i < 45; i++)
+            // Répète sur toute la largeur
+            for (int posX = 0; posX < GetScreenWidth(); posX += 50)
             {
-                DrawCircleLines(190 + 21 * i, 0, 20, GRAY);
+                int posY = 0;
+                DrawCircle(posX, posY, 5, GRAY);
+                DrawRectangle(posX+=5, posY+=50, 10, 10, GRAY);
+                // !
+                DrawLine(posX+=5, posY+=50, posX, posY + 15, GRAY);
+                DrawCircle(posX, posY+20, 2, GRAY);
             }
 
             DrawText("Loading...", screenWidth / 3, screenHeight / 2, 100, ORANGE);
+        }
 
         EndDrawing();
-        //----------------------------------------------------------------------------------
     }
+    CloseWindow();
 }
