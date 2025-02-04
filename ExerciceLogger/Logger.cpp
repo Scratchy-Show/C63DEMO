@@ -1,6 +1,4 @@
 #include "Logger.h"
-#include <iostream>
-#include <cassert>
 
 using namespace LoopEngine;
 

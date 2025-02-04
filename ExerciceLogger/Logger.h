@@ -1,6 +1,9 @@
 #pragma once
 
 #include <string>
+#include <iostream>
+#include <fstream>
+#include <cassert>
 using namespace std;
 
 namespace LoopEngine
@@ -49,6 +52,8 @@ namespace LoopEngine
         //Méthodes suggérées mais pas obligatoire.
         bool TryOpenFile();
         bool TryCloseFile();
+
+        // Exits the program if necessary
+        void ExitLogger(const TLevel InLoggingLevel) const;
     };
 };
-

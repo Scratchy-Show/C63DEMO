@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\travail\\C63DEMO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F65E7169-CF57-43B8-8D7D-BA0067462F34}|ExerciceLoggerProf\\Exercice-Logger-Prof.vcxproj|solutionrelative:ExerciceLoggerProf\\Logger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
+              "RelativeDocumentMoniker": "ExerciceLoggerProf\\main.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\main.cpp",
+              "RelativeToolTip": "ExerciceLoggerProf\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T18:04:53.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
+              "RelativeDocumentMoniker": "ExerciceLoggerProf\\Logger.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceLoggerProf\\Logger.cpp",
+              "RelativeToolTip": "ExerciceLoggerProf\\Logger.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T17:56:18.015Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
