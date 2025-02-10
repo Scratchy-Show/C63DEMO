@@ -1,2 +1,4 @@
 ﻿  IntroCPP.cpp
-  IntroCPP.vcxproj -> C:\travail\C63Demo\x64\Debug\IntroCPP.exe
+C:\travail\C63DEMO\IntroCPP\IntroCPP.cpp(80,19): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  LINK : C:\travail\C63DEMO\x64\Debug\IntroCPP.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+  IntroCPP.vcxproj -> C:\travail\C63DEMO\x64\Debug\IntroCPP.exe

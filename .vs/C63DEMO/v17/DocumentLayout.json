@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\travail\\C63DEMO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|solutionrelative:ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{125F4A68-BD53-4BF8-9695-96FF65F0744A}|ExoPreProcesseur\\ExoPreProcesseur.vcxproj|C:\\travail\\C63DEMO\\ExoPreProcesseur\\ExoPreProcesseur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{125F4A68-BD53-4BF8-9695-96FF65F0744A}|ExoPreProcesseur\\ExoPreProcesseur.vcxproj|solutionrelative:ExoPreProcesseur\\ExoPreProcesseur.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{125F4A68-BD53-4BF8-9695-96FF65F0744A}|ExoPreProcesseur\\ExoPreProcesseur.vcxproj|C:\\travail\\C63DEMO\\ExoPreProcesseur\\custommacro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{125F4A68-BD53-4BF8-9695-96FF65F0744A}|ExoPreProcesseur\\ExoPreProcesseur.vcxproj|solutionrelative:ExoPreProcesseur\\custommacro.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "custommacro.h",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExoPreProcesseur\\custommacro.h",
+              "RelativeDocumentMoniker": "ExoPreProcesseur\\custommacro.h",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExoPreProcesseur\\custommacro.h",
+              "RelativeToolTip": "ExoPreProcesseur\\custommacro.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T19:55:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExerciceDessin.cpp",
-              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
-              "RelativeDocumentMoniker": "ExerciceDessin\\ExerciceDessin.cpp",
-              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
-              "RelativeToolTip": "ExerciceDessin\\ExerciceDessin.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAcwD0AAAARAAAA",
+              "Title": "ExoPreProcesseur.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExoPreProcesseur\\ExoPreProcesseur.cpp",
+              "RelativeDocumentMoniker": "ExoPreProcesseur\\ExoPreProcesseur.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExoPreProcesseur\\ExoPreProcesseur.cpp",
+              "RelativeToolTip": "ExoPreProcesseur\\ExoPreProcesseur.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T16:57:18.05Z",
+              "WhenOpened": "2025-02-10T19:54:24.634Z",
               "EditorCaption": ""
             }
           ]
