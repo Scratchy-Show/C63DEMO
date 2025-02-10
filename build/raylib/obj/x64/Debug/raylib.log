@@ -1,18 +1,12 @@
 ﻿  raudio.c
   rcore.c
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(60,9): warning C4005: 'MAX_PATH' : redéfinition de macro
-  (compiler le fichier source '../../../src/rcore.c')
-      C:\travail\C63DEMO\raylib\src\rcore.c(166,17):
-      voir la définition précédente de « MAX_PATH »
-  
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY' : redéfinition de macro
-  (compiler le fichier source '../../../src/rcore.c')
-      C:\travail\C63DEMO\raylib\src\external\glfw\include\GLFW\glfw3.h(123,11):
-      voir la définition précédente de « APIENTRY »
-  
-  rglfw.c
   rmodels.c
+  rglfw.c
   rshapes.c
   rtext.c
+  rtextures.c
+  utils.c
   Génération de code en cours...
   raylib.vcxproj -> C:\travail\C63DEMO\build\raylib\bin\x64\Debug\raylib.lib

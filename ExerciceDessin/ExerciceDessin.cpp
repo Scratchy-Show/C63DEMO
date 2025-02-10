@@ -52,16 +52,20 @@ int main()
         else
         {
             ClearBackground(DARKPURPLE);
+            int px = 0;
 
             // Répète sur toute la largeur
             for (int posX = 0; posX < GetScreenWidth(); posX += 50)
             {
-                int posY = 0;
-                DrawCircle(posX, posY, 5, GRAY);
-                DrawRectangle(posX+=5, posY+=50, 10, 10, GRAY);
-                // !
-                DrawLine(posX+=5, posY+=50, posX, posY + 15, GRAY);
-                DrawCircle(posX, posY+20, 2, GRAY);
+                // Répète sur toute la hauteur
+                for (int posY = 0; posY < GetScreenHeight(); posY += 50)
+                {
+                    DrawCircle(px, posY, 5, GRAY);
+                    DrawRectangle(px += 5, posY += 50, 10, 10, GRAY);
+                    //  Dessin un !
+                    DrawLine(px += 10, posY += 50, px, posY + 15, GRAY);
+                    DrawCircle(px, posY + 20, 2, GRAY);
+                }
             }
 
             DrawText("Loading...", screenWidth / 3, screenHeight / 2, 100, ORANGE);

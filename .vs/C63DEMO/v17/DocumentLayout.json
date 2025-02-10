@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\travail\\C63DEMO\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16B7D01F-F131-4224-95E3-A89250C9496B}|ExerciceDessin\\ExerciceDessin.vcxproj|solutionrelative:ExerciceDessin\\ExerciceDessin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExerciceDessin.cpp",
+              "DocumentMoniker": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
+              "RelativeDocumentMoniker": "ExerciceDessin\\ExerciceDessin.cpp",
+              "ToolTip": "C:\\travail\\C63DEMO\\ExerciceDessin\\ExerciceDessin.cpp",
+              "RelativeToolTip": "ExerciceDessin\\ExerciceDessin.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwD0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T16:57:18.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
