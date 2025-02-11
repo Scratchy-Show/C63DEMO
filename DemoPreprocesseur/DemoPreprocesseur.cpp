@@ -20,7 +20,6 @@ int main()
 
     std::cout << "Fichier: " << __FILE__ << " Ligne: " << __LINE__ << std::endl;
 
-
 // Détruie la variable
 #undef GAME_RELEASE
 
