@@ -1,7 +1,0 @@
-﻿  CtorConstDebug.cpp
-C:\travail\C63DEMO\CtorConstDebug\Goblin.h(1,9): warning C4068: pragma inconnu 'onc'
-C:\travail\C63DEMO\CtorConstDebug\CtorConstDebug.cpp(17,22): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-  Goblin.cpp
-C:\travail\C63DEMO\CtorConstDebug\Goblin.h(1,9): warning C4068: pragma inconnu 'onc'
-  Génération de code en cours...
-  CtorConstDebug.vcxproj -> C:\travail\C63DEMO\x64\Debug\CtorConstDebug.exe
