@@ -24,7 +24,7 @@ struct CollisionEvent
     {
         //Constructeur ici
 
-        // tempShared est un shared_ptr<Flee> valide
+        // tempShared est un shared_ptr<Flee>
         if (auto tempShared = InLowerIndexFlee.lock())
         {
             _Position = tempShared->GetPosition();
@@ -68,17 +68,17 @@ int main(void)
 
         // push_back est une fonction membre du conteneur std::vector qui permet d'ajouter un nouvel élément à la fin du vecteur
         puces.push_back(ptrSharedFlee);
-
     }
 
 
     //3) Allez voir plus haut ce que fait la structure et prenez le temps de la comprendre. Initialiser toutes les valeurs de la struct.
     //Pour l'attribut _Position, prenez la position de la puce avec le plus petit index (InLowerIndexFlee)
     //?SAVIEZ_VOUS? En c++, struct et classe sont très similaires et on peut mettre des méthodes (incluant des constructeurs/destructeurs) aux struct
-    
+   // struct est une structure passive au contraire d'une classe qui est active. 
 
     //4) Créer une structure de données pour contenir des smart pointer d'évènement de collision.
     vector<shared_ptr<CollisionEvent>> collisions;
+    collisions.reserve(2000);
 
     SetTargetFPS(60);
     while (!WindowShouldClose())
@@ -146,8 +146,7 @@ int main(void)
             // auto& déclare une référence à chaque évènement (shared_ptr<CollisionEvent>) du vecteur collisions. Ce qui évite de faire une copie inutile du pointeur
             for (auto& event : collisions)
             {
-                // Dessine le carré (transparence gérée par le canal alpha, ici 25 sur 255)
-                // static_cast<int>(event->_Position.x) et static_cast<int>(event->_Position.y) : Convertissent les coordonnées en float de la position de l'événement en entiers, car DrawRectangle attend des positions en pixels (entiers).
+                // DrawRectangle attend des positions en pixels (entiers)
                 DrawRectangle(static_cast<int>(event->_Position.x), static_cast<int>(event->_Position.y), 5, 5, Color{ 255, 255, 255, 25 });
 
                 // Récupére les positions des puces en vérifiant que le weak_ptr est valide
@@ -165,7 +164,7 @@ int main(void)
 
 
             //12) À chaque dois qu'on pèse sur espace, une puce doit être supprimez. Votre programme ne devrait pas crasher si vous l'avez fait correctement!
-            if (IsKeyPressed(KEY_SPACE))
+            if (IsKeyPressed(KEY_SPACE) && !puces.empty())
             {
                 // Supprime la dernière puce du vector si le vector n'est pas vide
                 if (!puces.empty())

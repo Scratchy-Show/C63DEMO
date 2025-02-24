@@ -44,19 +44,20 @@ int main(void)
 
     //1) Créer une structure de donnée pour contenir des smart pointeur de puce sans la remplir
     vector<shared_ptr<Flee>> allFlees;
-    allFlees.reserve(10);
+    // Reserve une place de nbFlee dans la mémoire
+    allFlees.reserve(nbFlee);
 
     //2) Dans une boucle, créez des puces et placez-les au hasard à l'intérieur de border min et border max
     //Indice: regardez la fonction raylib  GetRandomValue
     //Soyez explicite si des données changes de type.
     for (int i = 0; i < nbFlee; ++i)
     {
-        float randomX = static_cast<float>(GetRandomValue(borderMin.x, borderMax.x));
-        float randomY = static_cast<float>(GetRandomValue(borderMin.y, borderMax.y));
+        float randomX = (float)(GetRandomValue((int)borderMin.x, (int)borderMax.x));
+        float randomY = (float)(GetRandomValue((int)borderMin.y, (int)borderMax.y));
         allFlees.push_back(make_shared<Flee>(Vector2{ randomX, randomY },500.f, borderMin, borderMax));
     }
 
-    //3) Allez voir plus haut ce que fait la structure et prenez le temps de la comprendre. Initializé toutes les valeurs de la struct.
+    //3) Allez voir plus haut ce que fait la structure et prenez le temps de la comprendre. Initialiser toutes les valeurs de la struct.
     //Pour l'attribut _Position, prenez la position de la puce avec le plus petit index (InLowerIndexFlee)
     //?SAVIEZ_VOUS? En c++, struct et classe sont très similaires et on peut mettre des méthodes (incluant des constructeurs/destructeurs)
     //aux struct

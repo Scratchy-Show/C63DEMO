@@ -18,6 +18,9 @@
     <ClCompile Include="main_etu.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="DemoPointeurFonction-Prof.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SimpleSquare.hpp">

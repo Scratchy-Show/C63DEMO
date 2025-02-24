@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DemoPointeurFonction-Prof.cpp" />
     <ClCompile Include="main_etu.cpp" />
   </ItemGroup>
   <ItemGroup>

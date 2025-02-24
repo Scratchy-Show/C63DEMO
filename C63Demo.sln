@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroCPP", "IntroCPP\IntroCPP.vcxproj", "{915081DA-C8F5-47BE-9550-E67D58AE8FA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E89D61AC-55DE-4482-AFD4-DF7242EBC859} = {E89D61AC-55DE-4482-AFD4-DF7242EBC859}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExerciceLogger", "ExerciceLogger\ExerciceLogger.vcxproj", "{B1EA64BE-06EF-41F8-A562-CBE9F3E321CF}"
 EndProject
@@ -24,6 +27,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoSmartPointer", "DemoSmartPointer\DemoSmartPointer.vcxproj", "{8088B988-76E9-4D69-B86A-8158A98AFF67}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExerciceSmartPointer", "ExerciceSmartPointer\ExerciceSmartPointer.vcxproj", "{3AC28618-3273-454D-81C4-4366B23D8588}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExerciceFonctionelleLambda", "ExerciceFonctionelleLambda\ExerciceFonctionelleLambda.vcxproj", "{91B397F4-BC40-477E-A5BE-69551985D3AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoFonctionnelleLambda", "DemoFonctionnelleLambda\DemoFonctionnelleLambda.vcxproj", "{8708F739-9415-4217-9897-50A46988D2FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +220,38 @@ Global
 		{3AC28618-3273-454D-81C4-4366B23D8588}.Release|x64.Build.0 = Release|x64
 		{3AC28618-3273-454D-81C4-4366B23D8588}.Release|x86.ActiveCfg = Release|Win32
 		{3AC28618-3273-454D-81C4-4366B23D8588}.Release|x86.Build.0 = Release|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug.DLL|x64.ActiveCfg = Debug|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug.DLL|x64.Build.0 = Debug|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug.DLL|x86.ActiveCfg = Debug|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug.DLL|x86.Build.0 = Debug|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug|x64.ActiveCfg = Debug|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug|x64.Build.0 = Debug|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Debug|x86.Build.0 = Debug|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release.DLL|x64.ActiveCfg = Release|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release.DLL|x64.Build.0 = Release|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release.DLL|x86.ActiveCfg = Release|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release.DLL|x86.Build.0 = Release|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release|x64.ActiveCfg = Release|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release|x64.Build.0 = Release|x64
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release|x86.ActiveCfg = Release|Win32
+		{91B397F4-BC40-477E-A5BE-69551985D3AE}.Release|x86.Build.0 = Release|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug.DLL|x64.ActiveCfg = Debug|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug.DLL|x64.Build.0 = Debug|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug.DLL|x86.ActiveCfg = Debug|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug.DLL|x86.Build.0 = Debug|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug|x64.ActiveCfg = Debug|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug|x64.Build.0 = Debug|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Debug|x86.Build.0 = Debug|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release.DLL|x64.ActiveCfg = Release|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release.DLL|x64.Build.0 = Release|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release.DLL|x86.ActiveCfg = Release|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release.DLL|x86.Build.0 = Release|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release|x64.ActiveCfg = Release|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release|x64.Build.0 = Release|x64
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release|x86.ActiveCfg = Release|Win32
+		{8708F739-9415-4217-9897-50A46988D2FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

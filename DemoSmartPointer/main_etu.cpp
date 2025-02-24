@@ -7,6 +7,10 @@
 //À inclure pour l'utilisation des pointeurs automatiques
 #include <memory>
 
+// Smart Pointeur
+// Pointe vers un autre pointeur qui lui même pointe vers une donnée
+// Le pointeur automatique (SmartPointeur) va DELETE le pointeur dynamique
+
 int main(void)
 {
     constexpr int screenWidth = 800;
@@ -29,6 +33,7 @@ int main(void)
 
 
     //Pointeur partagé
+    // Ne veut pas que le pointeur se DELETE
     currentDrawPosition = Vector2Add(currentDrawPosition, drawPositionDelta);
     std::shared_ptr<SimpleSquare> ptrSharedSimpleSquare = std::make_shared<SimpleSquare>(currentDrawPosition, "Pointeur partage", WHITE);
     std::shared_ptr<SimpleSquare> ptrSharedSimpleSquareCopy = ptrSharedSimpleSquare; // use_count++
@@ -43,6 +48,8 @@ int main(void)
 
     //Pointeur faible
     // Un weak ptr n'augmente pas de use_count, donc il ne fait pas de use_count++
+    // Utilise un pointeur sans devenir le propriétaire
+    // Fonctionne même si nullptr
     currentDrawPosition = Vector2Add(currentDrawPosition, drawPositionDelta);
     std::weak_ptr<SimpleSquare> ptrWeakSimpleSquare = ptrSharedSimpleSquare; // make_weak n'existe pas !!!!!!!
 

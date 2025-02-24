@@ -23,6 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Flee.cpp" />
+    <ClCompile Include="main_correction.cpp" />
     <ClCompile Include="main_etu.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
