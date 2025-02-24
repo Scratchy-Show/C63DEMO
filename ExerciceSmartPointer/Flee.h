@@ -24,8 +24,7 @@ class Flee
         void Move(float InDeltaTime);
         void Draw() const;
         const Vector2& GetPosition() const;
-        //TODO pendant la démo:
+        //TODO pendant la dÃ©mo:
         bool CollideWith(weak_ptr<const Flee> otherFlee) const;
-
 };
 

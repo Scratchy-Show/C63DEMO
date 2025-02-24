@@ -19,6 +19,8 @@ Flee::~Flee()
 	//Rien
 }
 
+// Met à jour la position en fonction du temps écoulé (deltaTime).
+// Si la puce atteint les bords, on annule le déplacement et on inverse la direction sur l’axe concerné.
 void Flee::Move(float InDeltaTime)
 {
 	const Vector2 oldPosition = _Position;
@@ -36,6 +38,7 @@ void Flee::Move(float InDeltaTime)
 	}
 }
 
+// Teste la collision entre deux puces en utilisant la fonction CheckCollisionCircles (cercles se chevauchent)
 bool Flee::CollideWith(weak_ptr<const Flee> otherFlee) const
 {
 	if (auto usablePtr = otherFlee.lock())

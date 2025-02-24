@@ -68,6 +68,8 @@ int main(void)
                 }
 
                 //Pointeur faible
+                // Un weak_ptr ne possède pas directement l'objet.
+                // Pout accéder à l'objet, il faut appeler la méthode lock() qui retourne un shared_ptr temporaire.
                 if (auto tempShared = ptrWeakSimpleSquare.lock())
                 {
                     // lock() protège le pointeur, cela garantie qu'il soit vivant
