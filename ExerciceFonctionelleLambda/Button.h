@@ -55,7 +55,7 @@ private:
     string _Text;
 
     // Fonction à exécuter lors d'un clic sur le bouton
-    function<void()> _ActionToDo;
+    function<void()> _ActionToDo = nullptr;
 
     // Couleurs utilisées pour les différents états du bouton
     Color _ColorNeutral; // Couleur par défaut

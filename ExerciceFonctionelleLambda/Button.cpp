@@ -36,7 +36,6 @@ using namespace std;
 Button::Button(int InPositionX, int InPositionY, int InLargeur, int InHauteur, const string& InText, function<void()> InActionToDo)
     : _PositionX(InPositionX), _PositionY(InPositionY), _Largeur(InLargeur), _Hauteur(InHauteur),
     _Text(InText), _ActionToDo(InActionToDo),
-    _ColorNeutral(GRAY), _ColorHover(LIGHTGRAY), _ColorPressed(DARKGRAY),
     _IsHovered(false), _IsPressed(false)
 {
     // Rien à faire ici car tous les attributs sont initialisés dans la liste d'initialisation.
@@ -45,7 +44,7 @@ Button::Button(int InPositionX, int InPositionY, int InLargeur, int InHauteur, c
 // Destructeur de la classe Button
 Button::~Button()
 {
-    // Aucun nettoyage particulier n'est nécessaire ici.
+    // Rien
 }
 
 // Méthode pour définir les couleurs du bouton selon différents états
@@ -70,7 +69,7 @@ void Button::DrawAndUpdate() {
     _IsHovered = CheckCollisionPointRec(mousePosition, buttonRect);
 
     // Détermine si le bouton est pressé : la souris est dessus et le bouton gauche est enfoncé
-    _IsPressed = _IsHovered && IsMouseButtonDown(MOUSE_LEFT_BUTTON);
+    _IsPressed = _IsHovered && IsMouseButtonDown(0);
 
     // Choisit la couleur par défaut
     Color currentColor = _ColorNeutral;
@@ -81,7 +80,7 @@ void Button::DrawAndUpdate() {
 
         // Si le bouton gauche de la souris est appuyé, on change à nouveau la couleur
         // et on exécute l'action associée au bouton
-        if (IsMouseButtonDown(MOUSE_LEFT_BUTTON)) {
+        if (IsMouseButtonDown(0)) {
             currentColor = _ColorPressed;
             _ActionToDo();  // Exécute l'action définie lors de la création du bouton (fonction lambda)
         }
